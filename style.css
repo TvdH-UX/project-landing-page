@@ -4,15 +4,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #1F2937;
 }
 
-header, 
+/* header, 
 .content, 
 .testimonial, 
 .cta, 
 footer {
-    padding: 0 16%;
-}
+    padding-left: 16%;
+    padding-right: 16%;
+} */
 
 header, 
 footer {
@@ -27,9 +29,14 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 /* Navigation section */
+header {
+    padding: 0 16%;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -86,4 +93,42 @@ img {
 
 .hero-image {
     min-width: 200px;
+}
+
+/* Content section */
+.content {
+    padding: 64px 16%;
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 64px;
+}
+
+.information {
+    display: flex;
+    gap: 64px;
+}
+
+.info-block img {
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+/* Testimonial section */
+.testimonial {
+    padding: 128px 16%;
+}
+
+
+/* CTA section */
+.cta {
+    padding: 128px 16%;
+}
+
+/* Footer section */
+footer {
+    padding: 32px 16%;
 }
