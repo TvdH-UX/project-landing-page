@@ -17,20 +17,34 @@ footer {
 header, 
 footer {
     background-color: #1F2937;
-    color: #fff;
+    color: #f9faf8;
 }
 
+button {
+    padding: 8px 24px;
+    color: #fff;
+    background-color: #3382f6;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Navigation section */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 0;
-    margin-bottom: 64px;
 }
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #E5E7EB;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .logo-link {
@@ -41,12 +55,35 @@ nav a {
 .right-links {
     display: flex;
     list-style: none;
+    font-size: 18px;
     padding: 0;
-    gap: 16px;
+    gap: 24px;
 }
 
+/* Hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px;
+    padding: 128px 0;
+}
 
-/* Temporary */
-header img {
-    width: 500px;
+.hero div {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.hero-image {
+    min-width: 200px;
 }
