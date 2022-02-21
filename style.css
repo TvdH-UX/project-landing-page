@@ -119,9 +119,21 @@ img {
 
 /* Testimonial section */
 .testimonial {
-    padding: 128px 16%;
+    padding: 128px 20%;
+    background-color: #E5E7EB;
 }
 
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.quote-source {
+    display: flex;
+    justify-content: flex-end;
+}
 
 /* CTA section */
 .cta {
