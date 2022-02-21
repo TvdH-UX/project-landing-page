@@ -96,6 +96,11 @@ img {
     min-width: 200px;
 }
 
+.hero-image img {
+    border: none;
+    border-radius: 8px;
+}
+
 /* Content section */
 .content {
     padding: 64px 16%;
