@@ -6,6 +6,46 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+header, 
+.content, 
+.testimonial, 
+.cta, 
+footer {
+    padding: 0 16%;
+}
+
+header, 
+footer {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    margin-bottom: 64px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-link {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 16px;
+}
+
+
 /* Temporary */
 header img {
     width: 500px;
